@@ -38,7 +38,9 @@ SHA master trong bảng là thời điểm kiểm toán mã; PR tài liệu sau 
 thay đổi mã nguồn hoặc test. Không di chuyển các tag đã công bố.
 
 - `git cat-file -t <tag>` trả `tag` cho cả 6 tag.
-- v1.0.1 trùng đầu release/lab04; v1.1.0 trùng đầu release/lab05.
+- Tại lần kiểm toán, v1.0.1 trùng đầu release/lab04 và v1.1.0 trùng đầu
+  release/lab05. Nhánh lab05 sau đó có thêm hiệu đính tài liệu; tag v1.1.0
+  tiếp tục định danh baseline phát hành trước hiệu đính.
 - `git diff --name-only v1.0.0 v1.0.1`: đúng 4 tệp.
 - Tìm `lion` trên v1.0.1, v1.1.0, master đều cho 1 kết quả.
 - `git cherry` xác nhận patch của FIX_SHA đã có trên cả master và lab05.
@@ -47,15 +49,10 @@ thay đổi mã nguồn hoặc test. Không di chuyển các tag đã công bố
 - Push thử vào master bị GH006; push thử release/lab04 bị GH013.
   Hai commit thăm dò chỉ chứa tệp nháp và không được đưa vào các nhánh nộp.
 
-## Phạm vi và phần cần sinh viên lưu ý
+## Cấu hình và phạm vi thực hiện
 
-1. Dùng chế độ cá nhân, 0 approval theo trang 13/29 của đề. Chưa có review
-   độc lập của bạn học; không giả mạo reviewer. Nếu lớp yêu cầu làm cặp đôi,
-   cần một bạn học thật thực hiện phần review.
-2. Git đã xác thực và push bằng HTTPS/Git Credential Manager. Chưa cấu hình
-   SSH key hay chạy `ssh -T`; đây là khác biệt với bước SSH ở Lab 01.
-3. Phần CI của Lab 05 được áp dụng trước lúc tạo release/lab04 để hotfix
-   cũng có workflow. Không bỏ qua CI để merge lỗi; PR cố ý lỗi đã đóng.
-4. Thư mục dữ liệu ban đầu chỉ có Android Affirmations, nên AIMS-mini được
-   xây dựng mới theo đặc tả Python của PDF. Không lấy mã từ kho tham khảo.
-5. Đã đưa bài lên GitHub. Việc dán link lên LMS vẫn do sinh viên thực hiện.
+- Chế độ cá nhân: yêu cầu PR, 0 approval; chưa có review độc lập.
+- Xác thực Git bằng HTTPS/Git Credential Manager; chưa cấu hình SSH key
+  hoặc thực hiện `ssh -T`.
+- CI được thiết lập trước khi tạo release/lab04 để kiểm tra cả PR hotfix.
+- Dự án sử dụng Python và thư viện chuẩn theo đặc tả AIMS-mini.

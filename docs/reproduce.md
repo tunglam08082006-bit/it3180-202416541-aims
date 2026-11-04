@@ -55,7 +55,7 @@ git cherry -v origin/release/lab05 origin/release/lab04
 Tag chứa commit gốc chỉ là v1.0.1. Với cherry-pick, cần kiểm tra patch tương
 đương hoặc hành vi; không yêu cầu v1.1.0 chứa đúng SHA gốc.
 
-## 5. Tự giải thích trước khi nộp
+## 5. Câu hỏi phân tích
 
 - Vì sao test giới hạn phải fail trước fix?
 - Vì sao PR #8 có base feature/discount?
