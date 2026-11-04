@@ -57,6 +57,4 @@ review độc lập `Changes requested → Approved` từ bạn học. Kết n�
 **HTTPS + Git Credential Manager**, chưa thực hiện bước SSH key/`ssh -T`.
 Hai điểm khác với kịch bản cặp đôi/SSH được ghi rõ trong bảng đối chiếu.
 
-Mã và câu trả lời được xây dựng riêng theo đề, có hỗ trợ Codex; kho tham khảo
-chỉ dùng để hiểu cách trình bày, không sao chép mã nguồn. Sinh viên cần đọc,
-chạy lại và hiểu lịch sử trước khi nộp link kho lên LMS.
+
