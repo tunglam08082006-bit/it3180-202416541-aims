@@ -7,9 +7,17 @@ Semantic Versioning. Tag đã công bố không được di chuyển.
 
 ## [1.1.0] - 2026-11-05
 
+### Fixed
+- Kế thừa bản sửa tìm kiếm tiêu đề của 1.0.1 bằng cherry-pick.
+
 ### Added
 - Tìm DVD theo thể loại, không phân biệt hoa thường.
 - Sắp xếp giỏ theo tiêu đề hoặc giá, kèm unittest.
+
+## [1.0.1] - 2026-11-05
+
+### Fixed
+- Tìm tiêu đề không phân biệt hoa thường (#19); đã lan truyền bản sửa sang dòng 1.1.x.
 
 ## [1.0.0] - 2026-11-04
 
