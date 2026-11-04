@@ -30,7 +30,6 @@ thể rebase hoặc amend; commit chung cần sửa bằng commit mới/revert.
 
 ## Làm cá nhân
 
-Thiết lập yêu cầu PR với 0 approval theo tùy chọn trong đề. Tự kiểm tra phát
-hiện thiếu thông báo giỏ rỗng và thêm commit sửa trên cùng PR. Không giả lập
-`Changes requested → Approved` bằng tài khoản khác: GitHub không cho tác giả
-tự approve. Phần review độc lập cần một bạn học thực sự nếu giảng viên yêu cầu.
+Bài thực hành dùng chế độ cá nhân với 0 approval. Khi kiểm tra PR in giỏ,
+phát hiện thiếu thông báo giỏ rỗng và bổ sung commit sửa trên cùng nhánh.
+Phần kiểm tra được thực hiện bởi tác giả, chưa có review độc lập.

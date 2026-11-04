@@ -19,7 +19,7 @@ cho baseline ban đầu. Cần lưu SHA và kiểm soát thay đổi thay vì ch
 
 PR tạo điểm kiểm tra diff, mục đích và kết quả thử nghiệm trước khi tích hợp;
 đồng thời lưu dấu vết yêu cầu → thay đổi → baseline. Cấu hình làm cá nhân dùng
-0 approval theo đề, nhưng vẫn yêu cầu PR. Không coi tự kiểm tra là review độc lập.
+0 approval theo đề và vẫn yêu cầu mọi thay đổi đi qua PR.
 Các commit khởi tạo trước PR đầu tiên là bước bootstrap theo Lab 01.
 
 ## Cấu hình global và local khác nhau thế nào?
