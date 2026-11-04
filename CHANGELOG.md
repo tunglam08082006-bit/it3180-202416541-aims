@@ -5,6 +5,11 @@ Semantic Versioning. Tag đã công bố không được di chuyển.
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-05
+
+### Fixed
+- Tìm tiêu đề không phân biệt hoa thường (#19); bổ sung regression test.
+
 ## [1.0.0] - 2026-11-04
 
 ### Added
