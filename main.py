@@ -11,7 +11,7 @@ def main():
         DigitalVideoDisc("Arrival", "Science fiction", "Denis Villeneuve", 116, 18.95),
     ]:
         cart.add_digital_video_disc(dvd)
-    print(f"Total cost: {cart.total_cost():.2f} $")
+    cart.print_cart()
 
 
 if __name__ == "__main__":
