@@ -29,3 +29,8 @@ class Cart:
         for index, dvd in enumerate(self.items, start=1):
             print(f"{index}. {dvd}")
         print(f"Total cost: {self.total_cost():.2f} $")
+
+    def total_cost_with_discount(self, percent):
+        if not 0 <= percent <= 100:
+            raise ValueError("Discount must be between 0 and 100")
+        return round(self.total_cost() * (1 - percent / 100), 2)
