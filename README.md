@@ -1,56 +1,62 @@
 # AIMS-mini — IT3180
 
-**Sinh viên:** Hoàng Tùng Lâm  
-**MSSV:** 202416541
+[![CI](https://github.com/tunglam08082006-bit/it3180-202416541-aims/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/tunglam08082006-bit/it3180-202416541-aims/actions/workflows/ci.yml)
 
-Ứng dụng dòng lệnh quản lý giỏ DVD, dùng để thực hành quản lý cấu hình
-phần mềm với Git và GitHub qua 5 lab.
+**Hoàng Tùng Lâm · MSSV 202416541**  
+Thực hành quản lý cấu hình phần mềm bằng Git và GitHub, Lab 01–05.
 
-```console
-python main.py
-```
+AIMS-mini quản lý giỏ DVD trong bộ nhớ: thêm/xóa, in giỏ, tính tổng và giảm
+giá, tìm theo tiêu đề/thể loại, sắp xếp theo tiêu đề/giá. Chỉ dùng thư viện
+chuẩn Python; không cần cài thêm gói.
 
-Kết quả kiểm tra nhanh: `Total cost: 63.89 $`.
+## Chạy nhanh
 
-Bài được triển khai độc lập theo đề IT3180. Các lỗi mẫu ban đầu được giữ
-để thực hành test tái hiện, sửa lỗi và phát hành bản vá ở đúng lab.
-
-Yêu cầu: Python 3.10 trở lên; chỉ sử dụng thư viện chuẩn.
-
-## Chạy và kiểm thử
+Yêu cầu Python ≥ 3.10; CI dùng Python 3.12.
 
 ```console
+git clone https://github.com/tunglam08082006-bit/it3180-202416541-aims.git
+cd it3180-202416541-aims
 python main.py
 python -m unittest discover -s tests -v
 ```
 
-## Các bản nộp
+Bản hiện tại: **1.1.0**, **9 tests OK**. Demo có dòng `Total cost: 63.89 $`.
 
-| Lab | Nhánh | Mốc ban đầu / bản vá | Nội dung |
+## Bản nộp theo từng lab
+
+| Lab | Nhánh nộp | Tag | Trọng tâm |
 |---|---|---|---|
-| 01 | `release/lab01` | `v0.1.0` | Thiết lập và refactor |
-| 02 | `release/lab02` | `v0.2.0` | Feature/topic, ba cách merge |
-| 03 | `release/lab03` | `v0.3.0` | Bugfix, conflict, revert |
-| 04 | `release/lab04` | `v1.0.0` / `v1.0.1` | Phát hành và dòng bảo trì 1.0.x |
-| 05 | `release/lab05` | `v1.1.0` | Tính năng mới và lan truyền hotfix |
+| 01 | [release/lab01](https://github.com/tunglam08082006-bit/it3180-202416541-aims/tree/release/lab01) | [v0.1.0](https://github.com/tunglam08082006-bit/it3180-202416541-aims/tree/v0.1.0) | Thiết lập, restore/amend, refactor |
+| 02 | [release/lab02](https://github.com/tunglam08082006-bit/it3180-202416541-aims/tree/release/lab02) | [v0.2.0](https://github.com/tunglam08082006-bit/it3180-202416541-aims/tree/v0.2.0) | Feature/topic, đồng bộ và 3 kiểu merge |
+| 03 | [release/lab03](https://github.com/tunglam08082006-bit/it3180-202416541-aims/tree/release/lab03) | [v0.3.0](https://github.com/tunglam08082006-bit/it3180-202416541-aims/tree/v0.3.0) | Test trước fix, conflict, reset/revert |
+| 04 | [release/lab04](https://github.com/tunglam08082006-bit/it3180-202416541-aims/tree/release/lab04) | [v1.0.0](https://github.com/tunglam08082006-bit/it3180-202416541-aims/releases/tag/v1.0.0) → [v1.0.1](https://github.com/tunglam08082006-bit/it3180-202416541-aims/releases/tag/v1.0.1) | Phát hành và bảo trì dòng 1.0.x |
+| 05 | [release/lab05](https://github.com/tunglam08082006-bit/it3180-202416541-aims/tree/release/lab05) | [v1.1.0](https://github.com/tunglam08082006-bit/it3180-202416541-aims/releases/tag/v1.1.0) | Tính năng mới và lan truyền hotfix |
 
-Tag mới chỉ xuất hiện sau khi hoàn thành bước phát hành tương ứng.
-Các bản cũ giữ lỗi mẫu theo tiến trình học; dùng v1.1.0 hoặc master cho mã đã sửa.
+Các tag đều là **annotated tag**. `v1.0.0` giữ nguyên baseline gốc; đầu
+`release/lab04` đã tiến lên `v1.0.1` qua PR hotfix. Các bản trước hotfix giữ
+lỗi mẫu để thể hiện quá trình học; dùng master hoặc v1.1.0 để chạy mã đã sửa.
 
-## Tài liệu
+## Tài liệu và bằng chứng
 
-- [Lab 01](docs/answers-lab01.md), [Lab 02](docs/answers-lab02.md),
-  [Lab 03](docs/answers-lab03.md), [Lab 04](docs/answers-lab04.md).
-- Câu trả lời Lab 05 được thêm khi hoàn tất hotfix trong `docs/answers-lab05.md`.
-- [Use case](docs/use-case.md) và [CHANGELOG](CHANGELOG.md).
+- Câu trả lời: [Lab 01](docs/answers-lab01.md), [Lab 02](docs/answers-lab02.md),
+  [Lab 03](docs/answers-lab03.md), [Lab 04](docs/answers-lab04.md),
+  [Lab 05](docs/answers-lab05.md).
+- [Bảng đối chiếu bài nộp và kiểm toán](docs/submission-checklist.md).
+- [Cách chạy lại các bài thực hành](docs/reproduce.md).
+- [Use case](docs/use-case.md), [CHANGELOG](CHANGELOG.md),
+  [Pull Requests](https://github.com/tunglam08082006-bit/it3180-202416541-aims/pulls?q=is%3Apr) và [Releases](https://github.com/tunglam08082006-bit/it3180-202416541-aims/releases).
 
-## Quy trình
+## Quy trình thực hiện
 
-Mọi thay đổi sau bootstrap đi qua PR. Master yêu cầu CI `test` thành công,
-release/* yêu cầu PR và cấm force push/xóa. Làm cá nhân với 0 approval theo đề;
-không có review độc lập bằng tài khoản bạn học. Dùng HTTPS/Git Credential
-Manager thay cho SSH trong hướng dẫn.
+Sau bootstrap Lab 01, mọi thay đổi vào master/release đi qua PR. Master yêu
+cầu CI `test` thành công và nhánh cập nhật; release/* cấm force push và xóa.
+Đã kiểm tra push thẳng bị chặn ở cả master và release/lab04.
 
-Kho tham khảo chỉ được đọc để hiểu cách tổ chức; mã nguồn, test và phần giải
-thích được xây dựng riêng. Có hỗ trợ của Codex trong quá trình thực hiện;
-sinh viên cần đọc, chạy lại và hiểu lịch sử trước khi nộp.
+Thực hiện theo chế độ cá nhân với **0 approval**, được đề cho phép. Chưa có
+review độc lập `Changes requested → Approved` từ bạn học. Kết nối Git dùng
+**HTTPS + Git Credential Manager**, chưa thực hiện bước SSH key/`ssh -T`.
+Hai điểm khác với kịch bản cặp đôi/SSH được ghi rõ trong bảng đối chiếu.
+
+Mã và câu trả lời được xây dựng riêng theo đề, có hỗ trợ Codex; kho tham khảo
+chỉ dùng để hiểu cách trình bày, không sao chép mã nguồn. Sinh viên cần đọc,
+chạy lại và hiểu lịch sử trước khi nộp link kho lên LMS.
