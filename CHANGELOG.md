@@ -6,6 +6,7 @@ Semantic Versioning. Tag đã công bố không được di chuyển.
 ## [Unreleased]
 
 ### Added
+- Tìm DVD theo thể loại, không phân biệt hoa thường.
 - Sắp xếp giỏ theo tiêu đề hoặc giá, kèm unittest.
 
 ## [1.0.0] - 2026-11-04
