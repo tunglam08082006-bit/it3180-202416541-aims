@@ -5,6 +5,9 @@ Semantic Versioning. Tag đã công bố không được di chuyển.
 
 ## [Unreleased]
 
+### Added
+- Sắp xếp giỏ theo tiêu đề hoặc giá, kèm unittest.
+
 ## [1.0.0] - 2026-11-04
 
 ### Added

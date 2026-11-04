@@ -34,3 +34,9 @@ class Cart:
         if not 0 <= percent <= 100:
             raise ValueError("Discount must be between 0 and 100")
         return round(self.total_cost() * (1 - percent / 100), 2)
+
+    def sort_by_title(self):
+        self.items.sort(key=lambda dvd: dvd.title.casefold())
+
+    def sort_by_cost(self):
+        self.items.sort(key=lambda dvd: dvd.cost)
