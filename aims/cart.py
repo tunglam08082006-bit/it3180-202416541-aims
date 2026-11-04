@@ -23,6 +23,9 @@ class Cart:
         return round(sum(dvd.cost for dvd in self.items), 2)
 
     def print_cart(self):
+        if not self.items:
+            print("The cart is empty")
+            return
         for index, dvd in enumerate(self.items, start=1):
             print(f"{index}. {dvd}")
         print(f"Total cost: {self.total_cost():.2f} $")
