@@ -52,11 +52,6 @@ Sau bootstrap Lab 01, mọi thay đổi vào master/release đi qua PR. Master y
 cầu CI `test` thành công và nhánh cập nhật; release/* cấm force push và xóa.
 Đã kiểm tra push thẳng bị chặn ở cả master và release/lab04.
 
-Thực hiện theo chế độ cá nhân với **0 approval**, được đề cho phép. Chưa có
-review độc lập `Changes requested → Approved` từ bạn học. Kết nối Git dùng
-**HTTPS + Git Credential Manager**, chưa thực hiện bước SSH key/`ssh -T`.
-Hai điểm khác với kịch bản cặp đôi/SSH được ghi rõ trong bảng đối chiếu.
-
-Mã và câu trả lời được xây dựng riêng theo đề, có hỗ trợ Codex; kho tham khảo
-chỉ dùng để hiểu cách trình bày, không sao chép mã nguồn. Sinh viên cần đọc,
-chạy lại và hiểu lịch sử trước khi nộp link kho lên LMS.
+Bài thực hành dùng chế độ cá nhân với **0 approval** và kết nối Git qua
+**HTTPS + Git Credential Manager**. Chi tiết cấu hình và phạm vi thực hiện
+được trình bày trong [bảng đối chiếu](docs/submission-checklist.md).
