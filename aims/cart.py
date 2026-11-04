@@ -20,7 +20,7 @@ class Cart:
         return True
 
     def total_cost(self):
-        return round(sum(dvd.cost for dvd in self.items), 2)
+        return 0.0  # Deliberate regression for the CI exercise.
 
     def print_cart(self):
         if not self.items:
