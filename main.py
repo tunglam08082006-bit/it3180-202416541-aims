@@ -1,9 +1,11 @@
 """Run a deterministic demo: three DVDs cost 63.89 dollars."""
+from aims import __version__
 from aims.dvd import DigitalVideoDisc
 from aims.cart import Cart
 
 
 def main():
+    print(f"AIMS-mini v{__version__}")
     cart = Cart()
     for dvd in [
         DigitalVideoDisc("The Lion King", "Animation", "Roger Allers", 88, 19.95),
