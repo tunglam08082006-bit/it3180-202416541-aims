@@ -18,11 +18,7 @@ giá, tìm theo tiêu đề/thể loại, sắp xếp theo tiêu đề/giá.
 | 04 | [release/lab04](https://github.com/tunglam08082006-bit/it3180-202416541-aims/tree/release/lab04) | [v1.0.0](https://github.com/tunglam08082006-bit/it3180-202416541-aims/releases/tag/v1.0.0) → [v1.0.1](https://github.com/tunglam08082006-bit/it3180-202416541-aims/releases/tag/v1.0.1) | Phát hành và bảo trì dòng 1.0.x |
 | 05 | [release/lab05](https://github.com/tunglam08082006-bit/it3180-202416541-aims/tree/release/lab05) | [v1.1.0](https://github.com/tunglam08082006-bit/it3180-202416541-aims/releases/tag/v1.1.0) | Tính năng mới và lan truyền hotfix |
 
-Các tag đều là **annotated tag**. `v1.0.0` giữ nguyên baseline gốc; đầu
-`release/lab04` đã tiến lên `v1.0.1` qua PR hotfix. Các bản trước hotfix giữ
-lỗi mẫu để thể hiện quá trình học; dùng master hoặc v1.1.0 để chạy mã đã sửa.
-
-## Tài liệu và bằng chứng
+## Tài liệu và câu trả lời
 
 - Câu trả lời: [Lab 01](docs/answers-lab01.md), [Lab 02](docs/answers-lab02.md),
   [Lab 03](docs/answers-lab03.md), [Lab 04](docs/answers-lab04.md),
