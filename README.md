@@ -6,12 +6,9 @@
 Thực hành quản lý cấu hình phần mềm bằng Git và GitHub, Lab 01–05.
 
 AIMS-mini quản lý giỏ DVD trong bộ nhớ: thêm/xóa, in giỏ, tính tổng và giảm
-giá, tìm theo tiêu đề/thể loại, sắp xếp theo tiêu đề/giá. Chỉ dùng thư viện
-chuẩn Python; không cần cài thêm gói.
+giá, tìm theo tiêu đề/thể loại, sắp xếp theo tiêu đề/giá. 
 
-## Chạy nhanh
 
-Yêu cầu Python ≥ 3.10; CI dùng Python 3.12.
 
 ```console
 git clone https://github.com/tunglam08082006-bit/it3180-202416541-aims.git
@@ -19,9 +16,6 @@ cd it3180-202416541-aims
 python main.py
 python -m unittest discover -s tests -v
 ```
-
-Bản hiện tại: **1.1.0**, **9 tests OK**. Demo có dòng `Total cost: 63.89 $`.
-
 ## Bản nộp theo từng lab
 
 | Lab | Nhánh nộp | Tag | Trọng tâm |
