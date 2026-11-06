@@ -28,13 +28,4 @@ giá, tìm theo tiêu đề/thể loại, sắp xếp theo tiêu đề/giá.
 - [Use case](docs/use-case.md), [CHANGELOG](CHANGELOG.md),
   [Pull Requests](https://github.com/tunglam08082006-bit/it3180-202416541-aims/pulls?q=is%3Apr) và [Releases](https://github.com/tunglam08082006-bit/it3180-202416541-aims/releases).
 
-## Quy trình thực hiện
 
-Sau bootstrap Lab 01, mọi thay đổi vào master/release đi qua PR. Master yêu
-cầu CI `test` thành công và nhánh cập nhật; release/* cấm force push và xóa.
-Đã kiểm tra push thẳng bị chặn ở cả master và release/lab04.
-
-Thực hiện theo chế độ cá nhân với **0 approval**, được đề cho phép. Chưa có
-review độc lập `Changes requested → Approved` từ bạn học. Kết nối Git dùng
-**HTTPS + Git Credential Manager**, chưa thực hiện bước SSH key/`ssh -T`.
-Hai điểm khác với kịch bản cặp đôi/SSH được ghi rõ trong bảng đối chiếu.
