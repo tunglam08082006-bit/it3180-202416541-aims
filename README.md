@@ -6,21 +6,7 @@
 Thực hành quản lý cấu hình phần mềm bằng Git và GitHub, Lab 01–05.
 
 AIMS-mini quản lý giỏ DVD trong bộ nhớ: thêm/xóa, in giỏ, tính tổng và giảm
-giá, tìm theo tiêu đề/thể loại, sắp xếp theo tiêu đề/giá. Chỉ dùng thư viện
-chuẩn Python; không cần cài thêm gói.
-
-## Chạy nhanh
-
-Yêu cầu Python ≥ 3.10; CI dùng Python 3.12.
-
-```console
-git clone https://github.com/tunglam08082006-bit/it3180-202416541-aims.git
-cd it3180-202416541-aims
-python main.py
-python -m unittest discover -s tests -v
-```
-
-Bản hiện tại: **1.1.0**, **9 tests OK**. Demo có dòng `Total cost: 63.89 $`.
+giá, tìm theo tiêu đề/thể loại, sắp xếp theo tiêu đề/giá. 
 
 ## Bản nộp theo từng lab
 
@@ -56,7 +42,3 @@ Thực hiện theo chế độ cá nhân với **0 approval**, được đề ch
 review độc lập `Changes requested → Approved` từ bạn học. Kết nối Git dùng
 **HTTPS + Git Credential Manager**, chưa thực hiện bước SSH key/`ssh -T`.
 Hai điểm khác với kịch bản cặp đôi/SSH được ghi rõ trong bảng đối chiếu.
-
-Mã và câu trả lời được xây dựng riêng theo đề, có hỗ trợ Codex; kho tham khảo
-chỉ dùng để hiểu cách trình bày, không sao chép mã nguồn. Sinh viên cần đọc,
-chạy lại và hiểu lịch sử trước khi nộp link kho lên LMS.
